@@ -1,19 +1,7 @@
 <html>
   <head>
     <title>Websockets Chat</title>
-    <script type="text/javascript">
-      var socket = new WebSocket('ws://localhost:8888');
-      socket.onopen = function(evt) {
-        alert('open');
-      }
-      socket.onmessage = function(evt) {
-        alert('msg');
-        alert(evt.data);
-      }
-      socket.onclose = function(evt) {
-        alert('close');
-      }
-    </script>
+    <script type="text/javascript" src="chat.js"></script>
   </head>
   <body>
   Hello World!
